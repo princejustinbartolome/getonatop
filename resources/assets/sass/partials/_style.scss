@@ -1210,6 +1210,7 @@ header {
 			div {
 
 				text-align: center;
+				min-height: 350px;
 
 				&:first-child {
 
@@ -1794,6 +1795,7 @@ header {
 			div {
 
 				text-align: center;
+				min-height: 300px;
 
 				&:first-child {
 
@@ -2172,7 +2174,7 @@ header {
 
 		.headerBlock {
 
-				padding: 22px 35px;
+				padding: 22px 15px;
 
 			.row {
 				.headerContent01 {
@@ -2256,6 +2258,9 @@ header {
 		padding-top: 0;
 
 		.sectionContent01 {	
+
+			padding-top: 10px !important;
+			text-align: center;
 
 			.row {
 

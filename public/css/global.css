@@ -6264,6 +6264,21 @@ header {
     padding-right: 20px;
     padding-left: 20px;
     transition: 0.5s all ease; }
+  .sectionArea02 {
+    padding: 40px 0 44px 0; }
+    .sectionArea02 .wrapInner02 {
+      width: auto; }
+    .sectionArea02 .sectionBlock02 .row div {
+      text-align: center;
+      min-height: 350px; }
+      .sectionArea02 .sectionBlock02 .row div:first-child div p {
+        font-size: 14px; }
+      .sectionArea02 .sectionBlock02 .row div:nth-child(2) div p {
+        font-size: 14px; }
+      .sectionArea02 .sectionBlock02 .row div:nth-child(3) div p {
+        font-size: 14px; }
+      .sectionArea02 .sectionBlock02 .row div:nth-child(4) div p {
+        font-size: 14px; }
   /* Section Area 3 Style
 	========================================================================== */
   .sectionArea03 {
@@ -6438,7 +6453,8 @@ header {
     .sectionArea02 .wrapInner02 {
       width: auto; }
     .sectionArea02 .sectionBlock02 .row div {
-      text-align: center; }
+      text-align: center;
+      min-height: 300px; }
       .sectionArea02 .sectionBlock02 .row div:first-child div img {
         margin-right: 0;
         width: 51px; }
@@ -6587,7 +6603,7 @@ header {
     background: #84c44e;
     margin-bottom: 27px; }
     header .headerBlock {
-      padding: 22px 35px; }
+      padding: 22px 15px; }
       header .headerBlock .row .headerContent01 div h1 img {
         width: 100%; }
       header .headerBlock .row .headerContent02 .socialUl {
@@ -6611,32 +6627,35 @@ header {
     background-position: bottom; }
     .sectionArea01 .sectionBlock {
       padding-top: 0; }
-      .sectionArea01 .sectionBlock .sectionContent01 .row {
-        padding: 0px; }
-        .sectionArea01 .sectionBlock .sectionContent01 .row h2 {
-          font-size: 22px; }
-        .sectionArea01 .sectionBlock .sectionContent01 .row p {
-          margin-left: 0;
-          padding-right: 0; }
-          .sectionArea01 .sectionBlock .sectionContent01 .row p:nth-child(2) {
-            font-size: 15px; }
-          .sectionArea01 .sectionBlock .sectionContent01 .row p:nth-child(3) {
-            font-size: 15px;
-            margin-bottom: 20px; }
-          .sectionArea01 .sectionBlock .sectionContent01 .row p:last-child {
-            font-size: 15px;
-            margin-bottom: 20px; }
-        .sectionArea01 .sectionBlock .sectionContent01 .row .mobileLinkUl {
-          text-align: center; }
-          .sectionArea01 .sectionBlock .sectionContent01 .row .mobileLinkUl li {
-            float: none;
-            margin-bottom: 10px; }
-            .sectionArea01 .sectionBlock .sectionContent01 .row .mobileLinkUl li:first-child {
-              margin-right: 0; }
-            .sectionArea01 .sectionBlock .sectionContent01 .row .mobileLinkUl li:nth-child(2) {
-              margin-right: 0; }
-            .sectionArea01 .sectionBlock .sectionContent01 .row .mobileLinkUl li:nth-child(3) {
-              margin-right: 0; }
+      .sectionArea01 .sectionBlock .sectionContent01 {
+        padding-top: 10px !important;
+        text-align: center; }
+        .sectionArea01 .sectionBlock .sectionContent01 .row {
+          padding: 0px; }
+          .sectionArea01 .sectionBlock .sectionContent01 .row h2 {
+            font-size: 22px; }
+          .sectionArea01 .sectionBlock .sectionContent01 .row p {
+            margin-left: 0;
+            padding-right: 0; }
+            .sectionArea01 .sectionBlock .sectionContent01 .row p:nth-child(2) {
+              font-size: 15px; }
+            .sectionArea01 .sectionBlock .sectionContent01 .row p:nth-child(3) {
+              font-size: 15px;
+              margin-bottom: 20px; }
+            .sectionArea01 .sectionBlock .sectionContent01 .row p:last-child {
+              font-size: 15px;
+              margin-bottom: 20px; }
+          .sectionArea01 .sectionBlock .sectionContent01 .row .mobileLinkUl {
+            text-align: center; }
+            .sectionArea01 .sectionBlock .sectionContent01 .row .mobileLinkUl li {
+              float: none;
+              margin-bottom: 10px; }
+              .sectionArea01 .sectionBlock .sectionContent01 .row .mobileLinkUl li:first-child {
+                margin-right: 0; }
+              .sectionArea01 .sectionBlock .sectionContent01 .row .mobileLinkUl li:nth-child(2) {
+                margin-right: 0; }
+              .sectionArea01 .sectionBlock .sectionContent01 .row .mobileLinkUl li:nth-child(3) {
+                margin-right: 0; }
       .sectionArea01 .sectionBlock .sectionContent02 .row {
         padding: 0 40px;
         text-align: center; }
